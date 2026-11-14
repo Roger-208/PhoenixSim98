@@ -18,4 +18,4 @@ func _process(delta: float) -> void:
 	rotation_degrees += (360 / (temps_gir / velocitat_pajaro)) * delta
 
 	if velocitat_pajaro > 1:
-		velocitat_pajaro *= 0.998
+		velocitat_pajaro *= 0.99

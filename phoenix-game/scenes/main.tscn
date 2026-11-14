@@ -1,7 +1,10 @@
 [gd_scene format=3 uid="uid://c1xo780laud0c"]
 
 [ext_resource type="PackedScene" uid="uid://cfjmjekps8ve1" path="res://paraules.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://c4j4kgyoqss1e" path="res://scenes/background.tscn" id="2_0wfyh"]
 
 [node name="MenuParaules" type="Node2D" unique_id=113768335]
+
+[node name="Background" parent="." unique_id=1448918115 instance=ExtResource("2_0wfyh")]
 
 [node name="Node2D" parent="." unique_id=939044018 instance=ExtResource("1_ig7tw")]

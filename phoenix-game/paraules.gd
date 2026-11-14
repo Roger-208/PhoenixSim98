@@ -1,8 +1,11 @@
 extends Label
 @onready var timer: Timer = $Timer
-@onready var aEscriure = "aaa"
+@onready var aEscriure = ""
 @onready var lletresPossibles: String = "abyeznoiuvptw"
 @onready var numeroLletres: int = lletresPossibles.length()
+@onready var speed = $"../../Background/Node2D"
+var first: bool = true
+
 
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -11,7 +14,7 @@ func _ready() -> void:
 	vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 
 	timer.timeout.connect(_on_timeout)
-	timer.start(0.8)
+	timer.start(0.1)
 
 func _input(event):
 	if aEscriure.length() > 0:
@@ -50,5 +53,15 @@ func _process(delta: float) -> void:
 	
 	self.text = testNou
 
+
 func _on_timeout() -> void:
-	aEscriure += lletresPossibles[randi() % numeroLletres]
+	if first:
+		if len(aEscriure) < 5:
+			aEscriure += lletresPossibles[randi() % numeroLletres]
+		else:
+			first = false
+	elif len(aEscriure) == 0:
+		first = true
+		speed.velocitat_pajaro += 100
+		
+		

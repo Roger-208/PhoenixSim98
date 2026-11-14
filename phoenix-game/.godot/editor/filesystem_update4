@@ -1,5 +1,4 @@
-res://main.tscn
+res://scenes/main.tscn
 res://paraules.gd
-res://paraules.tscn
-res://detras.gd
 res://scenes/background.tscn
+res://scripts/earth.gd

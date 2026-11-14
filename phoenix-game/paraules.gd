@@ -50,7 +50,7 @@ func _process(delta: float) -> void:
 	var testNou: String = ""
 	for lletra in aEscriure:
 		testNou += lletra + " "
-	
+
 	self.text = testNou
 
 

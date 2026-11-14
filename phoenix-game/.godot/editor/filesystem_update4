@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 res://scenes/main.tscn
 res://paraules.gd
 res://scenes/background.tscn
 res://scripts/earth.gd
+=======
+res://scripts/menú.gd
+>>>>>>> Stashed changes

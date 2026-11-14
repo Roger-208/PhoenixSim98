@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cfjmjekps8ve1"]
+
+[ext_resource type="Script" uid="uid://56cs7qs2mo7f" path="res://paraules.gd" id="1_r77qc"]
+[ext_resource type="Script" uid="uid://dy2oipqfsq10o" path="res://detras.gd" id="1_tp888"]
+
+[node name="Node2D" type="Node2D" unique_id=939044018]
+script = ExtResource("1_tp888")
+
+[node name="Label" type="Label" parent="." unique_id=1746787488]
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("1_r77qc")
+
+[node name="Timer" type="Timer" parent="Label" unique_id=1166396165]

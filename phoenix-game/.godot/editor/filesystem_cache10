@@ -1,4 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
+<<<<<<< Updated upstream
 ::res://::1794679489
 icon.svg::CompressedTexture2D::1233617428164016796::1794663675::1794663675::1::::<><><>0<>0<>fb654bd1d46c199bfbad384b7a6ccadb<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 paraules.gd::GDScript::2169816304111128525::1794677919::0::1::::<>Label<><>0<>0<><>::
@@ -639,3 +640,28 @@ main.tscn::PackedScene::6646140946013351328::1794679489::0::1::::<><><>0<>0<><>:
 ::res://scripts/::1794679489
 earth.gd::GDScript::8604207849168458392::1794679489::0::1::::<>Node2D<><>0<>0<><>::
 line_2d.gd::GDScript::1906008740021081831::1794679489::0::1::::<>Line2D<><>0<>0<><>::
+=======
+::res://::1794683437
+icon.svg::CompressedTexture2D::1233617428164016796::1794659960::1794660003::1::::<><><>0<>0<>fb654bd1d46c199bfbad384b7a6ccadb<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.tscn::PackedScene::6646140946013351328::1794659960::0::1::::<><><>0<>0<><>::
+menú.tscn::PackedScene::3332387067107566190::1794673015::0::1::::<><><>0<>0<><>::uid://d2jmmeohuwpaw::::res://scripts/menú.gd<>uid://l5yppk6wq4ki::::res://images/f6afa9dcb15852c7aece5b67117dd6cc.jpg
+::res://images/::1794683492
+f6afa9dcb15852c7aece5b67117dd6cc.jpg::CompressedTexture2D::835493412111974672::1794672680::1794672692::1::::<><><>0<>0<>a3c8c8f12f085bd216b03a462726a550<>res://.godot/imported/f6afa9dcb15852c7aece5b67117dd6cc.jpg-85a6989c030c3840f135f815b6b42a4e.ctex::
+::res://images/Alfabeto/::1794683492
+Alpha.png::CompressedTexture2D::6522343576449258954::1794683492::1794683492::1::::<><><>0<>0<>f4d090a0a17c917ac8f669726fcc0c17<>res://.godot/imported/Alpha.png-f4efbcabd9f0290e14c1d68b92edbfbe.ctex::
+beta.png::CompressedTexture2D::2177904916596033914::1794683492::1794683492::1::::<><><>0<>0<>580ed139a7db5d4a426a056ebcd05cf4<>res://.godot/imported/beta.png-eb06d841b2db4814a8dc35cf6eda0714.ctex::
+eta.png::CompressedTexture2D::1667714920273927043::1794683492::1794683492::1::::<><><>0<>0<>1275f5d1b1bd25ca229934c444401b72<>res://.godot/imported/eta.png-46646e25eca9231036e1756a8c9cc665.ctex::
+Gamma.png::CompressedTexture2D::2301978018410718266::1794683492::1794683492::1::::<><><>0<>0<>3d5e418df0970d5aea4f55c426042c17<>res://.godot/imported/Gamma.png-5958f13c0d9f79be9a885d046d5119bc.ctex::
+iota.png::CompressedTexture2D::944882589775465966::1794683492::1794683492::1::::<><><>0<>0<>3ed27f03d2be9109c3bc62a9134a2ad8<>res://.godot/imported/iota.png-5c27f4420bc5695e4fda0a40760be13d.ctex::
+Mu.png::CompressedTexture2D::7505060295144722970::1794683492::1794683492::1::::<><><>0<>0<>be0a04a967ffde63f85efcc45f03c53f<>res://.godot/imported/Mu.png-1201da94ea18497b41b3dbdb2301796f.ctex::
+Nu.png::CompressedTexture2D::7384579802726718444::1794683492::1794683492::1::::<><><>0<>0<>40a0fd335a5d81c11dfa697025e92b1a<>res://.godot/imported/Nu.png-725f926918fccc91b064c395a1099ec3.ctex::
+Omega.png::CompressedTexture2D::5840326720880718380::1794683492::1794683492::1::::<><><>0<>0<>548c548c4f98ce824553a827c561181d<>res://.godot/imported/Omega.png-5517e55ade4a89d3153a51fe2749371d.ctex::
+Pi.png::CompressedTexture2D::92006041761179613::1794683492::1794683492::1::::<><><>0<>0<>f7d3dd3a568c25aba40d08fadb9056b9<>res://.godot/imported/Pi.png-42b371b8562b56d968550493a13b17dd.ctex::
+Rho.png::CompressedTexture2D::2693577301453099988::1794683492::1794683492::1::::<><><>0<>0<>7c3175acfa9543fb41642fbfb6d9e250<>res://.godot/imported/Rho.png-07c50ac06a2a23235c2be46d726c04bd.ctex::
+Sigma.png::CompressedTexture2D::1445648344867878967::1794683492::1794683492::1::::<><><>0<>0<>76d1d164aa84d494000e99f9f28934ad<>res://.godot/imported/Sigma.png-2fdbed34b32f30e7a8e3ea3126dc7ad4.ctex::
+Tau.png::CompressedTexture2D::4891171288718891498::1794683492::1794683492::1::::<><><>0<>0<>ba8693f123f83978610523ade71593e0<>res://.godot/imported/Tau.png-bffffa47bca7f525260814b5abdd6a29.ctex::
+theta.png::CompressedTexture2D::5600636300126145316::1794683492::1794683492::1::::<><><>0<>0<>277ec054a1a3d1ee7439e7dcfe6d2474<>res://.godot/imported/theta.png-b093002bfc5ed3e3599fc7aef2b10df9.ctex::
+zeta.png::CompressedTexture2D::4913396761424320909::1794683492::1794683492::1::::<><><>0<>0<>64b31e0b11a14e16854f55a1fc61399d<>res://.godot/imported/zeta.png-3a61e98648c8bdc4bab6366dbc30d94a.ctex::
+::res://scripts/::1794672692
+menú.gd::GDScript::9073690494599090978::1794670085::0::1::::<>Control<><>0<>0<><>::
+>>>>>>> Stashed changes

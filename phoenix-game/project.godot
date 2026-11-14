@@ -11,8 +11,12 @@ config_version=5
 [application]
 
 config/name="PhoenixGame"
+<<<<<<< Updated upstream
 run/main_scene="uid://c4j4kgyoqss1e"
 run/main_scene="uid://c1xo780laud0c"
+=======
+run/main_scene="uid://bnqh6s6ec04vi"
+>>>>>>> Stashed changes
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 

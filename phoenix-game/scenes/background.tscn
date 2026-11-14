@@ -1,0 +1,190 @@
+[gd_scene format=3 uid="uid://c4j4kgyoqss1e"]
+
+[ext_resource type="Texture2D" uid="uid://dheyusx6guqhk" path="res://assets/sky.jpg" id="1_bkp1e"]
+[ext_resource type="Script" uid="uid://dut7btnjc6rki" path="res://scripts/earth.gd" id="3_cbsqf"]
+[ext_resource type="Texture2D" uid="uid://cdcj2a60o7d5o" path="res://assets/Sin título2.png" id="3_jougr"]
+[ext_resource type="Texture2D" uid="uid://xw33hoc8jo8g" path="res://assets/pixil-frame-0.png" id="5_wax1t"]
+[ext_resource type="Script" uid="uid://2fjxkn8km5h8" path="res://scripts/line_2d.gd" id="5_wisxt"]
+
+[node name="Background" type="Node2D" unique_id=1448918115]
+
+[node name="background" type="Sprite2D" parent="." unique_id=472111345]
+position = Vector2(581.5, 328)
+scale = Vector2(1.5867208, 1.5942029)
+texture = ExtResource("1_bkp1e")
+
+[node name="Node2D" type="Node2D" parent="." unique_id=771914433]
+position = Vector2(576, 4730)
+script = ExtResource("3_cbsqf")
+temps_gir = 320.0
+
+[node name="Node2D2" type="Node2D" parent="Node2D" unique_id=314824164]
+visible = false
+position = Vector2(-576, -4730)
+
+[node name="SinTítulo2" type="Sprite2D" parent="Node2D/Node2D2" unique_id=1983878451]
+position = Vector2(562, 471)
+rotation = 0.019705841
+scale = Vector2(3.2866669, 3.2866669)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo3" type="Sprite2D" parent="Node2D/Node2D2" unique_id=1615444413]
+position = Vector2(-726.0001, 685)
+rotation = -0.36098358
+scale = Vector2(3.2866666, 3.2866666)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo4" type="Sprite2D" parent="Node2D/Node2D2" unique_id=1338176798]
+position = Vector2(-1887.0002, 1297)
+rotation = -0.61102146
+scale = Vector2(3.2866666, 3.2866666)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo5" type="Sprite2D" parent="Node2D/Node2D2" unique_id=1967806299]
+position = Vector2(-2834, 2215)
+rotation = -0.9220166
+scale = Vector2(3.2866669, 3.2866669)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo6" type="Sprite2D" parent="Node2D/Node2D2" unique_id=2127186453]
+position = Vector2(-3441, 3367)
+rotation = -1.237177
+scale = Vector2(3.2866664, 3.2866664)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo7" type="Sprite2D" parent="Node2D/Node2D2" unique_id=1519429307]
+position = Vector2(-3661.9995, 4643)
+rotation = -1.5485687
+scale = Vector2(3.2866666, 3.2866666)
+texture = ExtResource("3_jougr")
+
+[node name="Node2D3" type="Node2D" parent="Node2D" unique_id=1876086771]
+visible = false
+position = Vector2(-4400, 1808)
+rotation = -1.8388593
+
+[node name="SinTítulo2" type="Sprite2D" parent="Node2D/Node2D3" unique_id=16928630]
+position = Vector2(562, 471)
+rotation = 0.019705841
+scale = Vector2(3.2866669, 3.2866669)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo3" type="Sprite2D" parent="Node2D/Node2D3" unique_id=410032365]
+position = Vector2(-726.0001, 685)
+rotation = -0.36098358
+scale = Vector2(3.2866666, 3.2866666)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo4" type="Sprite2D" parent="Node2D/Node2D3" unique_id=1957991401]
+position = Vector2(-1887.0002, 1297)
+rotation = -0.61102146
+scale = Vector2(3.2866666, 3.2866666)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo5" type="Sprite2D" parent="Node2D/Node2D3" unique_id=104811128]
+position = Vector2(-2834, 2215)
+rotation = -0.9220166
+scale = Vector2(3.2866669, 3.2866669)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo6" type="Sprite2D" parent="Node2D/Node2D3" unique_id=1532569123]
+position = Vector2(-3441, 3367)
+rotation = -1.237177
+scale = Vector2(3.2866664, 3.2866664)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo7" type="Sprite2D" parent="Node2D/Node2D3" unique_id=1266203785]
+position = Vector2(-3661.9995, 4643)
+rotation = -1.5485687
+scale = Vector2(3.2866666, 3.2866666)
+texture = ExtResource("3_jougr")
+
+[node name="Node2D4" type="Node2D" parent="Node2D" unique_id=522033342]
+visible = false
+position = Vector2(2883, 3770)
+rotation = -3.6814003
+
+[node name="SinTítulo2" type="Sprite2D" parent="Node2D/Node2D4" unique_id=915246832]
+position = Vector2(562, 471)
+rotation = 0.019705841
+scale = Vector2(3.2866669, 3.2866669)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo3" type="Sprite2D" parent="Node2D/Node2D4" unique_id=1710736435]
+position = Vector2(-726.0001, 685)
+rotation = -0.36098358
+scale = Vector2(3.2866666, 3.2866666)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo4" type="Sprite2D" parent="Node2D/Node2D4" unique_id=894535075]
+position = Vector2(-1887.0002, 1297)
+rotation = -0.61102146
+scale = Vector2(3.2866666, 3.2866666)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo5" type="Sprite2D" parent="Node2D/Node2D4" unique_id=1851029895]
+position = Vector2(-2834, 2215)
+rotation = -0.9220166
+scale = Vector2(3.2866669, 3.2866669)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo6" type="Sprite2D" parent="Node2D/Node2D4" unique_id=1816246140]
+position = Vector2(-3441, 3367)
+rotation = -1.237177
+scale = Vector2(3.2866664, 3.2866664)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo7" type="Sprite2D" parent="Node2D/Node2D4" unique_id=1060168690]
+position = Vector2(-3661.9995, 4643)
+rotation = -1.5485687
+scale = Vector2(3.2866666, 3.2866666)
+texture = ExtResource("3_jougr")
+
+[node name="Node2D5" type="Node2D" parent="Node2D" unique_id=1225313847]
+visible = false
+position = Vector2(4253.0005, -1987)
+rotation = -5.0256934
+
+[node name="SinTítulo2" type="Sprite2D" parent="Node2D/Node2D5" unique_id=1070114821]
+position = Vector2(562, 471)
+rotation = 0.019705841
+scale = Vector2(3.2866669, 3.2866669)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo3" type="Sprite2D" parent="Node2D/Node2D5" unique_id=1797630791]
+position = Vector2(-726.0001, 685)
+rotation = -0.36098358
+scale = Vector2(3.2866666, 3.2866666)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo4" type="Sprite2D" parent="Node2D/Node2D5" unique_id=120272790]
+position = Vector2(-1887.0002, 1297)
+rotation = -0.61102146
+scale = Vector2(3.2866666, 3.2866666)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo5" type="Sprite2D" parent="Node2D/Node2D5" unique_id=2075810705]
+position = Vector2(-2834, 2215)
+rotation = -0.9220166
+scale = Vector2(3.2866669, 3.2866669)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo6" type="Sprite2D" parent="Node2D/Node2D5" unique_id=678814619]
+position = Vector2(-3441, 3367)
+rotation = -1.237177
+scale = Vector2(3.2866664, 3.2866664)
+texture = ExtResource("3_jougr")
+
+[node name="SinTítulo7" type="Sprite2D" parent="Node2D/Node2D5" unique_id=1758976195]
+position = Vector2(-3661.9995, 4643)
+rotation = -1.5485687
+scale = Vector2(3.2866666, 3.2866666)
+texture = ExtResource("3_jougr")
+
+[node name="Line2D" type="Line2D" parent="Node2D" unique_id=1230887832]
+width = 400.575
+texture = ExtResource("5_wax1t")
+texture_mode = 1
+script = ExtResource("5_wisxt")
+radi = 4200.0
+punts = 240

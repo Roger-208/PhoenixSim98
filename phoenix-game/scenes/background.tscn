@@ -1,22 +1,15 @@
 [gd_scene format=3 uid="uid://c4j4kgyoqss1e"]
 
-[ext_resource type="Texture2D" uid="uid://dheyusx6guqhk" path="res://assets/sky.jpg" id="1_bkp1e"]
 [ext_resource type="Script" uid="uid://dut7btnjc6rki" path="res://scripts/earth.gd" id="3_cbsqf"]
 [ext_resource type="Texture2D" uid="uid://cdcj2a60o7d5o" path="res://assets/Sin título2.png" id="3_jougr"]
-[ext_resource type="Texture2D" uid="uid://xw33hoc8jo8g" path="res://assets/pixil-frame-0.png" id="5_wax1t"]
+[ext_resource type="Texture2D" uid="uid://rhnwpyrswq3r" path="res://assets/sky3.png" id="3_wisxt"]
 [ext_resource type="Script" uid="uid://2fjxkn8km5h8" path="res://scripts/line_2d.gd" id="5_wisxt"]
 
 [node name="Background" type="Node2D" unique_id=1448918115]
 
-[node name="background" type="Sprite2D" parent="." unique_id=472111345]
-position = Vector2(581.5, 328)
-scale = Vector2(1.5867208, 1.5942029)
-texture = ExtResource("1_bkp1e")
-
 [node name="Node2D" type="Node2D" parent="." unique_id=771914433]
 position = Vector2(576, 4730)
 script = ExtResource("3_cbsqf")
-temps_gir = 320.0
 
 [node name="Node2D2" type="Node2D" parent="Node2D" unique_id=314824164]
 visible = false
@@ -182,9 +175,9 @@ scale = Vector2(3.2866666, 3.2866666)
 texture = ExtResource("3_jougr")
 
 [node name="Line2D" type="Line2D" parent="Node2D" unique_id=1230887832]
-width = 400.575
-texture = ExtResource("5_wax1t")
+width = 1000.0
+texture = ExtResource("3_wisxt")
 texture_mode = 1
 script = ExtResource("5_wisxt")
-radi = 4200.0
+radi = 4550.0
 punts = 240

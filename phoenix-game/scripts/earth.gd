@@ -96,7 +96,7 @@ func _process(delta: float) -> void:
 	#rotation_degrees += (360 / (temps_gir / fenix.velocitat_pajaro)) * delta
 	rotation_degrees = fenix_completion
 
-	#pivot_checkpoint_detras.rotation_degrees = fenix_completion
+	pivot_checkpoint_detras.rotation_degrees = fenix_completion
 	pivot_checkpoint_delante.rotation_degrees = fenix_completion
 
 	pivot_ruc.rotation_degrees = fenix_completion - ruc_completion

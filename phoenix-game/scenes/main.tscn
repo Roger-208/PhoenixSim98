@@ -23,9 +23,9 @@ parameters/looping = true
 
 [node name="Node2D" parent="CanvasLayer" unique_id=939044018 instance=ExtResource("1_ig7tw")]
 
-[node name="end" parent="CanvasLayer" unique_id=575170453 instance=ExtResource("5_85g3d")]
-
 [node name="Pausa" parent="CanvasLayer" unique_id=1351822781 instance=ExtResource("5_tbgi4")]
+
+[node name="end" parent="." unique_id=575170453 instance=ExtResource("5_85g3d")]
 
 [node name="pivot_checkpoints_detras" type="Node2D" parent="." unique_id=2672763]
 position = Vector2(576, 4730)

@@ -2,7 +2,7 @@ extends Node2D
 
 @onready var sprite = $AnimatedSprite2D
 @onready var phoenix = $"../../FenixPersonatge"
-@export var velocitat_pajaro: float = 1.2
+@export var velocitat_pajaro: float = 2.4
 
 
 # Called when the node enters the scene tree for the first time.

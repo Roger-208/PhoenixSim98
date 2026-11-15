@@ -1,13 +1,13 @@
 extends Control
 
-var pausa3 = false
+var esta_pausado = false
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("pause"):
-		pausa3 =  not pausa3
+		esta_pausado =  not esta_pausado
 		
 		
-	if pausa3 == true:
+	if esta_pausado == true:
 		get_tree().paused = true
 		self.visible = true
 	else:

@@ -2,29 +2,8 @@
 
 [ext_resource type="Script" uid="uid://d2jmmeohuwpaw" path="res://scripts/menú.gd" id="1_it8e6"]
 [ext_resource type="Texture2D" uid="uid://l5yppk6wq4ki" path="res://images/f6afa9dcb15852c7aece5b67117dd6cc.jpg" id="2_6tq3s"]
-
-[sub_resource type="FontFile" id="FontFile_u0ya7"]
-cache/0/variation_coordinates = {}
-cache/0/face_index = 0
-cache/0/embolden = 0.0
-cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
-cache/0/spacing_top = 0
-cache/0/spacing_bottom = 0
-cache/0/spacing_space = 0
-cache/0/spacing_glyph = 0
-cache/0/baseline_offset = 0.0
-cache/0/16/0/ascent = 0.0
-cache/0/16/0/descent = 0.0
-cache/0/16/0/underline_position = 0.0
-cache/0/16/0/underline_thickness = 0.0
-cache/0/16/0/scale = 1.0
-cache/0/30/0/ascent = 0.0
-cache/0/30/0/descent = 0.0
-cache/0/30/0/underline_position = 0.0
-cache/0/30/0/underline_thickness = 0.0
-cache/0/30/0/scale = 1.0
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dtglo"]
+[ext_resource type="Texture2D" uid="uid://bxp0c7fmw8lgj" path="res://images/play.png" id="3_shunq"]
+[ext_resource type="Texture2D" uid="uid://br0se45jqm625" path="res://images/tutorial.png" id="4_gkko3"]
 
 [node name="Menú" type="Control" unique_id=269529036]
 layout_mode = 3
@@ -74,19 +53,26 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 39
 
-[node name="PLAY" type="Button" parent="VBoxContainer" unique_id=535149818]
+[node name="PLAY" type="TextureButton" parent="VBoxContainer" unique_id=1798849375]
+custom_minimum_size = Vector2(128, 64)
+custom_maximum_size = Vector2(128, 64)
 layout_mode = 2
-theme_override_fonts/font = SubResource("FontFile_u0ya7")
-theme_override_font_sizes/font_size = 30
-theme_override_styles/hover = SubResource("StyleBoxFlat_dtglo")
-text = "PLAY
-"
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_default_cursor_shape = 2
+action_mode = 0
+texture_normal = ExtResource("3_shunq")
+ignore_texture_size = true
+stretch_mode = 3
 
-[node name="QUIT" type="Button" parent="VBoxContainer" unique_id=1708239071]
+[node name="tutorial" type="TextureButton" parent="VBoxContainer" unique_id=1798456008]
+custom_minimum_size = Vector2(128, 64)
+custom_maximum_size = Vector2(128, 64)
 layout_mode = 2
-text = "QUIT
-"
+size_flags_horizontal = 4
+action_mode = 0
+texture_normal = ExtResource("4_gkko3")
+stretch_mode = 3
 
-[connection signal="pressed" from="VBoxContainer/PLAY" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/PLAY" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="VBoxContainer/QUIT" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="VBoxContainer/tutorial" to="." method="_on_tutorial_pressed"]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbxk42iuccw8a"
-path="res://.godot/imported/Tau.png-bffffa47bca7f525260814b5abdd6a29.ctex"
+uid="uid://72dihlojcyq1"
+path="res://.godot/imported/gamma.png-046c388408d43a09e2020543d546b213.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Alfabeto/Tau.png"
-dest_files=["res://.godot/imported/Tau.png-bffffa47bca7f525260814b5abdd6a29.ctex"]
+source_file="res://images/Alfabeto/gamma.png"
+dest_files=["res://.godot/imported/gamma.png-046c388408d43a09e2020543d546b213.ctex"]
 
 [params]
 

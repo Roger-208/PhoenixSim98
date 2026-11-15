@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://uuju8jw4xhat"
-path="res://.godot/imported/Sigma.png-2fdbed34b32f30e7a8e3ea3126dc7ad4.ctex"
+uid="uid://cbxk42iuccw8a"
+path="res://.godot/imported/tau.png-02d7fbf06b950ca813060a58f0288667.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Alfabeto/Sigma.png"
-dest_files=["res://.godot/imported/Sigma.png-2fdbed34b32f30e7a8e3ea3126dc7ad4.ctex"]
+source_file="res://images/Alfabeto/tau.png"
+dest_files=["res://.godot/imported/tau.png-02d7fbf06b950ca813060a58f0288667.ctex"]
 
 [params]
 

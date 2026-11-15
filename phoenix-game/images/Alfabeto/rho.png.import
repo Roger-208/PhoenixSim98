@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://72dihlojcyq1"
-path="res://.godot/imported/Gamma.png-5958f13c0d9f79be9a885d046d5119bc.ctex"
+uid="uid://bem13bi2g806k"
+path="res://.godot/imported/rho.png-69107e051bed63fa74b49a8ed4e39536.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Alfabeto/Gamma.png"
-dest_files=["res://.godot/imported/Gamma.png-5958f13c0d9f79be9a885d046d5119bc.ctex"]
+source_file="res://images/Alfabeto/rho.png"
+dest_files=["res://.godot/imported/rho.png-69107e051bed63fa74b49a8ed4e39536.ctex"]
 
 [params]
 

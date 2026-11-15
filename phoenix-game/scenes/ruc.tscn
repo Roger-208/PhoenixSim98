@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://bxijyq583dxtx"]
 
-[ext_resource type="Script" path="res://scenes/ruc.gd" id="1_8cd7f"]
-[ext_resource type="Texture2D" path="res://assets/roc/roc1.png" id="1_ayd61"]
-[ext_resource type="Texture2D" path="res://assets/roc/roc2.png" id="2_8cd7f"]
-[ext_resource type="Texture2D" path="res://assets/roc/roc3.png" id="3_n3580"]
-[ext_resource type="Texture2D" path="res://assets/roc/roc4.png" id="4_nqsk1"]
-[ext_resource type="Texture2D" path="res://assets/roc/roc5.png" id="5_2a81d"]
-[ext_resource type="Texture2D" path="res://assets/roc/roc6.png" id="6_rcnhn"]
+[ext_resource type="Script" uid="uid://dincs64tard4i" path="res://scripts/ruc.gd" id="1_8cd7f"]
+[ext_resource type="Texture2D" uid="uid://b6a5u8uhd0no5" path="res://assets/roc/roc1.png" id="1_ayd61"]
+[ext_resource type="Texture2D" uid="uid://bjcecero5qb03" path="res://assets/roc/roc2.png" id="2_8cd7f"]
+[ext_resource type="Texture2D" uid="uid://cfb8j8fwi7xun" path="res://assets/roc/roc3.png" id="3_n3580"]
+[ext_resource type="Texture2D" uid="uid://bgnvu0j568u2g" path="res://assets/roc/roc4.png" id="4_nqsk1"]
+[ext_resource type="Texture2D" uid="uid://yaob1hiki86u" path="res://assets/roc/roc5.png" id="5_2a81d"]
+[ext_resource type="Texture2D" uid="uid://vgbbyo2jxajl" path="res://assets/roc/roc6.png" id="6_rcnhn"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_rch1p"]
 animations = [{
@@ -51,4 +51,4 @@ script = ExtResource("1_8cd7f")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=71221263]
 sprite_frames = SubResource("SpriteFrames_rch1p")
-frame_progress = 0.5124189
+frame_progress = 0.73902977

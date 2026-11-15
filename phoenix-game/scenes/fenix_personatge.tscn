@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cx30tk6dsp87y"]
 
 [ext_resource type="Texture2D" uid="uid://df6d3b8pjnmpt" path="res://assets/fenix/fenix1.png" id="1_la7l6"]
+[ext_resource type="Script" uid="uid://bmeyni2d6wbdj" path="res://scripts/fenix_personatge.gd" id="1_mlmin"]
 [ext_resource type="Texture2D" uid="uid://dy7nnwpw03dhg" path="res://assets/fenix/fenix2.png" id="2_mlmin"]
 [ext_resource type="Texture2D" uid="uid://svshty1h03sj" path="res://assets/fenix/fenix3.png" id="3_iy4lp"]
 [ext_resource type="Texture2D" uid="uid://fk5tjk2toosw" path="res://assets/fenix/fenix4.png" id="4_qq0xh"]
@@ -51,7 +52,8 @@ animations = [{
 }]
 
 [node name="FenixPersonatge" type="Node2D" unique_id=1579974124]
+script = ExtResource("1_mlmin")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=836812184]
 sprite_frames = SubResource("SpriteFrames_r1c1m")
-frame_progress = 0.0069694608
+frame_progress = 0.038760386

@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dut7btnjc6rki" path="res://scripts/earth.gd" id="3_cbsqf"]
 [ext_resource type="Texture2D" uid="uid://rhnwpyrswq3r" path="res://assets/sky3.png" id="3_wisxt"]
+[ext_resource type="Texture2D" uid="uid://c8ghfwgrj31cb" path="res://assets/planeta.svg" id="4_cbsqf"]
 [ext_resource type="Script" uid="uid://2fjxkn8km5h8" path="res://scripts/line_2d.gd" id="5_wisxt"]
 
 [node name="Background" type="Node2D" unique_id=1448918115]
@@ -17,3 +18,10 @@ texture_mode = 1
 script = ExtResource("5_wisxt")
 radi = 4550.0
 punts = 240
+
+[node name="Node2D2" type="Node2D" parent="." unique_id=1347149674]
+position = Vector2(1039, 98)
+
+[node name="Planeta" type="Sprite2D" parent="." unique_id=26593994]
+position = Vector2(1006, 77)
+texture = ExtResource("4_cbsqf")

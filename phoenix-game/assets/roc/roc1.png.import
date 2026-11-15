@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cy6qbs6iru2k1"
-path="res://.godot/imported/Alpha.png-f4efbcabd9f0290e14c1d68b92edbfbe.ctex"
+uid="uid://b6a5u8uhd0no5"
+path="res://.godot/imported/roc1.png-ae798fabdd1112a9d68bb3086dbd4259.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Alfabeto/Alpha.png"
-dest_files=["res://.godot/imported/Alpha.png-f4efbcabd9f0290e14c1d68b92edbfbe.ctex"]
+source_file="res://assets/roc/roc1.png"
+dest_files=["res://.godot/imported/roc1.png-ae798fabdd1112a9d68bb3086dbd4259.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cphdle7i7yx13"
-path="res://.godot/imported/Omega.png-5517e55ade4a89d3153a51fe2749371d.ctex"
+uid="uid://de6rinayll4p7"
+path="res://.godot/imported/mu.png-8e26523bf2398ace1c1be761bbbb62d1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Alfabeto/Omega.png"
-dest_files=["res://.godot/imported/Omega.png-5517e55ade4a89d3153a51fe2749371d.ctex"]
+source_file="res://images/Alfabeto/mu.png"
+dest_files=["res://.godot/imported/mu.png-8e26523bf2398ace1c1be761bbbb62d1.ctex"]
 
 [params]
 

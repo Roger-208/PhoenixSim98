@@ -1,9 +1,26 @@
 extends Label
+
 @onready var timer: Timer = $Timer
 @onready var aEscriure = ""
 @onready var lletresPossibles: String = "abyeznoiuvptw"
+@onready var lletraToTextura: Dictionary = {
+	"a": preload("res://images/Alfabeto/alpha.png"),
+	"b": preload("res://images/Alfabeto/beta.png"),
+	"n": preload("res://images/Alfabeto/eta.png"),
+	"y": preload("res://images/Alfabeto/gamma.png"),
+	"i": preload("res://images/Alfabeto/iota.png"),
+	"u": preload("res://images/Alfabeto/mu.png"),
+	"v": preload("res://images/Alfabeto/nu.png"),
+	"w": preload("res://images/Alfabeto/omega.png"),
+	"p": preload("res://images/Alfabeto/rho.png"),
+	"e": preload("res://images/Alfabeto/sigma.png"),
+	"t": preload("res://images/Alfabeto/tau.png"),
+	"o": preload("res://images/Alfabeto/theta.png"),
+	"z": preload("res://images/Alfabeto/zeta.png")
+}
+
 @onready var numeroLletres: int = lletresPossibles.length()
-@onready var speed = $"../../Background/Node2D"
+@onready var fenix = $"../../FenixPersonatge"
 var first: bool = true
 
 
@@ -44,15 +61,31 @@ func _input(event):
 			aEscriure = aEscriure.substr(1)
 		elif aEscriure[0] == "w" and event.is_action_pressed("omega"):
 			aEscriure = aEscriure.substr(1)
-		
-		
-func _process(delta: float) -> void:
-	var testNou: String = ""
-	for lletra in aEscriure:
-		testNou += lletra + " "
 
-	self.text = testNou
+func _draw() -> void:
+	var tamany: Vector2 = Vector2(64, 64)
+	var separacio: float = 10.0
 
+	var amplada_total = aEscriure.length() * (tamany.x + separacio) - separacio
+	var inici_x = (size.x / 2.0 - amplada_total / 2.0)
+
+	for i in range(aEscriure.length()):
+		var lletra = aEscriure[i]
+		var textura: Texture2D = lletraToTextura[lletra]
+
+		var posicio = Vector2(
+			inici_x + i * (tamany.x + separacio),
+			(size.y - tamany.y*1.9)
+		)
+
+		draw_texture_rect(
+			textura,
+			Rect2(posicio, tamany),
+			false
+		)
+
+func _process(_delta: float) -> void:
+	queue_redraw()
 
 func _on_timeout() -> void:
 	if first:
@@ -62,6 +95,5 @@ func _on_timeout() -> void:
 			first = false
 	elif len(aEscriure) == 0:
 		first = true
-		speed.velocitat_pajaro += 100
-		
-		
+
+		fenix.velocitat_pajaro += 100

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bem13bi2g806k"
-path="res://.godot/imported/Rho.png-07c50ac06a2a23235c2be46d726c04bd.ctex"
+uid="uid://cy6qbs6iru2k1"
+path="res://.godot/imported/alpha.png-5a0a5acd07d204766be2944e3c8ab540.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Alfabeto/Rho.png"
-dest_files=["res://.godot/imported/Rho.png-07c50ac06a2a23235c2be46d726c04bd.ctex"]
+source_file="res://images/Alfabeto/alpha.png"
+dest_files=["res://.godot/imported/alpha.png-5a0a5acd07d204766be2944e3c8ab540.ctex"]
 
 [params]
 

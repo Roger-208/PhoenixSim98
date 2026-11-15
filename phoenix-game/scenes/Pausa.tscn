@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cb0d4hdwxxhlp"]
 
 [ext_resource type="Script" uid="uid://r2pct4b1q44y" path="res://scenes/pausa.gd" id="1_0x36i"]
-[ext_resource type="Texture2D" uid="uid://b020ihek68ygr" path="res://images/menu_pausa.png" id="2_ff6no"]
+[ext_resource type="Texture2D" uid="uid://b020ihek68ygr" path="res://images/menu_pausa.png" id="1_ss6cr"]
 
 [node name="Pausa" type="Control" unique_id=1351822781]
 process_mode = 3
@@ -13,17 +13,11 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_0x36i")
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=1525422393]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -256.0
-offset_top = -128.0
-offset_right = 256.0
-offset_bottom = 128.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("2_ff6no")
+[node name="TextureRect" type="TextureRect" parent="." unique_id=204530379]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MenuPausa" type="Sprite2D" parent="." unique_id=444659945]
+position = Vector2(600, 314)
+texture = ExtResource("1_ss6cr")

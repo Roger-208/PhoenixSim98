@@ -8,6 +8,10 @@ extends Node2D
 @onready var pivot_checkpoint_delante = $"../../pivot_checkpoints_delante"
 @onready var timer = $"../Planeta/Label"
 
+@onready var end = $"../../CanvasLayer/end"
+@onready var endLabel = $"../../CanvasLayer/end/Label"
+
+
 
 @onready var pivot_ruc_icona = $"../pivot_ruc"
 @onready var pivot_fenix_icona = $"../pivot_phoenix"
@@ -23,7 +27,7 @@ var fenix_completion = 0
 var ruc_completion = 0
 
 var time = 0
-var remaining_time = 0
+var remaining_time = 360
 var goback = false
 var start_from_checkpoint = false
 var last_checkpoint = 0
@@ -44,6 +48,11 @@ func random_bird_lounge() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	
+	if remaining_time <= 0:
+		end.esta_pausado = true
+		endLabel.text = str(voltes)
+		
+	
 	voltes = int(fenix_completion/360)
 	limit_vel_ruc = (voltes*0.1)+1.2
 	print(voltes)
@@ -51,7 +60,7 @@ func _process(delta: float) -> void:
 	random_bird_lounge()
 	
 	time += delta
-	remaining_time = int(360 - time)
+	remaining_time = int(10 - time)
 	
 	if remaining_time%60 > 9:
 		rem_time_to_str = str(remaining_time/60) + ":" + str(remaining_time%60) 

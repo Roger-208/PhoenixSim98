@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://cx30tk6dsp87y" path="res://scenes/fenix_personatge.tscn" id="3_sugp2"]
 [ext_resource type="Texture2D" uid="uid://dl7rmh6qoghq2" path="res://assets/checkpoint_detras2.svg" id="3_tefeu"]
 [ext_resource type="PackedScene" uid="uid://bxijyq583dxtx" path="res://scenes/ruc.tscn" id="4_jyhfs"]
+[ext_resource type="PackedScene" uid="uid://bmy30awhwmyg3" path="res://scenes/end.tscn" id="5_85g3d"]
 [ext_resource type="PackedScene" uid="uid://cb0d4hdwxxhlp" path="res://scenes/Pausa.tscn" id="5_tbgi4"]
 [ext_resource type="Texture2D" uid="uid://bgqjdxyiteiyq" path="res://assets/checkpoint_delante2.svg" id="6_o6xl0"]
 
@@ -15,6 +16,8 @@
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=743463322]
 
 [node name="Node2D" parent="CanvasLayer" unique_id=939044018 instance=ExtResource("1_ig7tw")]
+
+[node name="end" parent="CanvasLayer" unique_id=575170453 instance=ExtResource("5_85g3d")]
 
 [node name="Pausa" parent="CanvasLayer" unique_id=1351822781 instance=ExtResource("5_tbgi4")]
 

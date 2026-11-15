@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://bmy30awhwmyg3"]
+
+[ext_resource type="Script" uid="uid://pacjox45rmyk" path="res://scenes/end.gd" id="1_3d26k"]
+[ext_resource type="Texture2D" uid="uid://iydj75ailk1f" path="res://assets/time over.png" id="1_mwn6m"]
+
+[node name="end" type="Control" unique_id=1351822781]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3d26k")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=204530379]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TimeOver" type="Sprite2D" parent="." unique_id=1098223080]
+position = Vector2(578, 324.5)
+scale = Vector2(0.61145836, 0.6175926)
+texture = ExtResource("1_mwn6m")
+
+[node name="Label" type="Label" parent="." unique_id=172710526]
+layout_mode = 0
+offset_left = 835.0
+offset_top = 312.0
+offset_right = 905.0
+offset_bottom = 405.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 68
+text = "0"

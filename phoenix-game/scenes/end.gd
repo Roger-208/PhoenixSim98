@@ -11,4 +11,4 @@ func _process(delta: float) -> void:
 		self.visible = true
 	else:
 		self.visible = false
-		get_tree().paused = esta_pausado
+		

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bktlc6xe1l1n"
-path="res://.godot/imported/Pi.png-42b371b8562b56d968550493a13b17dd.ctex"
+uid="uid://b020ihek68ygr"
+path="res://.godot/imported/menu_pausa.png-58baea025d15f101210b159deef1fc28.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Alfabeto/Pi.png"
-dest_files=["res://.godot/imported/Pi.png-42b371b8562b56d968550493a13b17dd.ctex"]
+source_file="res://images/menu_pausa.png"
+dest_files=["res://.godot/imported/menu_pausa.png-58baea025d15f101210b159deef1fc28.ctex"]
 
 [params]
 

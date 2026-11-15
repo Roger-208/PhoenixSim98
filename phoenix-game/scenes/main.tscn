@@ -3,9 +3,8 @@
 [ext_resource type="PackedScene" uid="uid://cfjmjekps8ve1" path="res://paraules.tscn" id="1_ig7tw"]
 [ext_resource type="PackedScene" uid="uid://c4j4kgyoqss1e" path="res://scenes/background.tscn" id="2_0wfyh"]
 [ext_resource type="PackedScene" uid="uid://cx30tk6dsp87y" path="res://scenes/fenix_personatge.tscn" id="3_sugp2"]
-[ext_resource type="Texture2D" uid="uid://dl7rmh6qoghq2" path="res://assets/checkpoint_detras2.svg" id="3_tefeu"]
 [ext_resource type="PackedScene" uid="uid://bxijyq583dxtx" path="res://scenes/ruc.tscn" id="4_jyhfs"]
-[ext_resource type="Texture2D" uid="uid://bgqjdxyiteiyq" path="res://assets/checkpoint_delante2.svg" id="6_o6xl0"]
+[ext_resource type="PackedScene" uid="uid://cb0d4hdwxxhlp" path="res://scenes/Pausa.tscn" id="5_tbgi4"]
 
 [node name="MenuParaules" type="Node2D" unique_id=113768335]
 
@@ -14,38 +13,8 @@
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=743463322]
 
 [node name="Node2D" parent="CanvasLayer" unique_id=939044018 instance=ExtResource("1_ig7tw")]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = 0.0
-offset_bottom = 0.0
-grow_horizontal = 2
-grow_vertical = 2
 
-[node name="pivot_checkpoints_detras" type="Node2D" parent="." unique_id=675512329]
-position = Vector2(576, 4730)
-
-[node name="CheckpointDetras2" type="Sprite2D" parent="pivot_checkpoints_detras" unique_id=1362396151]
-position = Vector2(0, -4450)
-scale = Vector2(2, 2)
-texture = ExtResource("3_tefeu")
-
-[node name="CheckpointDetras3" type="Sprite2D" parent="pivot_checkpoints_detras" unique_id=1454405850]
-position = Vector2(0, 4450)
-scale = Vector2(2, 2)
-texture = ExtResource("3_tefeu")
-
-[node name="CheckpointDetras4" type="Sprite2D" parent="pivot_checkpoints_detras" unique_id=612968670]
-position = Vector2(4450, 0)
-rotation = 1.5707964
-scale = Vector2(2, 2)
-texture = ExtResource("3_tefeu")
-
-[node name="CheckpointDetras5" type="Sprite2D" parent="pivot_checkpoints_detras" unique_id=1602965162]
-position = Vector2(-4450, 0)
-rotation = 1.5707964
-scale = Vector2(2, 2)
-texture = ExtResource("3_tefeu")
+[node name="Pausa" parent="CanvasLayer" unique_id=1351822781 instance=ExtResource("5_tbgi4")]
 
 [node name="FenixPersonatge" parent="." unique_id=1579974124 instance=ExtResource("3_sugp2")]
 
@@ -54,28 +23,3 @@ position = Vector2(576, 4730)
 
 [node name="Ruc" parent="pivot_ruc" unique_id=1352965393 instance=ExtResource("4_jyhfs")]
 position = Vector2(-576, -4730)
-
-[node name="pivot_checkpoints_delante" type="Node2D" parent="." unique_id=432254976]
-position = Vector2(576, 4730)
-
-[node name="CheckpointDelante2" type="Sprite2D" parent="pivot_checkpoints_delante" unique_id=1150144799]
-position = Vector2(0, 4450)
-scale = Vector2(2, 2)
-texture = ExtResource("6_o6xl0")
-
-[node name="CheckpointDelante3" type="Sprite2D" parent="pivot_checkpoints_delante" unique_id=1906943761]
-position = Vector2(0, -4450)
-scale = Vector2(2, 2)
-texture = ExtResource("6_o6xl0")
-
-[node name="CheckpointDelante4" type="Sprite2D" parent="pivot_checkpoints_delante" unique_id=438305331]
-position = Vector2(-4450, 0)
-rotation = 1.5707964
-scale = Vector2(2, 2)
-texture = ExtResource("6_o6xl0")
-
-[node name="CheckpointDelante5" type="Sprite2D" parent="pivot_checkpoints_delante" unique_id=1370340629]
-position = Vector2(4450, 0)
-rotation = 1.5707964
-scale = Vector2(2, 2)
-texture = ExtResource("6_o6xl0")

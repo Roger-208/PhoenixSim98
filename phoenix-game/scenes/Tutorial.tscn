@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://b4ixmuk1u450" path="res://images/Tutorial_fons.png" id="1_cfv3y"]
 [ext_resource type="Script" uid="uid://dhj3ewi46rb8i" path="res://scenes/tutorial.gd" id="1_pgr2e"]
 [ext_resource type="Texture2D" uid="uid://c2f7uvyijynts" path="res://images/esquerra.png" id="3_ebau5"]
+[ext_resource type="Texture2D" uid="uid://dlxldm4pm5pbj" path="res://images/Play_tutorial.png" id="4_ebau5"]
 
 [node name="Control" type="Control" unique_id=209353410]
 layout_mode = 3
@@ -13,7 +14,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_pgr2e")
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=1942832301]
+[node name="FONS" type="TextureRect" parent="." unique_id=1942832301]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -23,7 +24,7 @@ grow_vertical = 2
 texture = ExtResource("1_cfv3y")
 expand_mode = 1
 
-[node name="TextureButton" type="TextureButton" parent="." unique_id=1118663064]
+[node name="BACK" type="TextureButton" parent="." unique_id=1118663064]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.065000005
@@ -36,4 +37,17 @@ offset_right = 17.119995
 offset_bottom = 71.20001
 texture_normal = ExtResource("3_ebau5")
 
-[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]
+[node name="PLAY" type="TextureButton" parent="." unique_id=906462151]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.017
+anchor_bottom = 0.031000001
+offset_left = 1075.0
+offset_top = 571.0
+offset_right = 1087.416
+offset_bottom = 582.912
+texture_normal = ExtResource("4_ebau5")
+
+[connection signal="pressed" from="BACK" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="PLAY" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="PLAY" to="." method="_on_texture_button_pressed"]

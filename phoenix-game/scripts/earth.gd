@@ -60,7 +60,7 @@ func _process(delta: float) -> void:
 	random_bird_lounge()
 	
 	time += delta
-	remaining_time = int(10 - time)
+	remaining_time = int(360 - time)
 	
 	if remaining_time%60 > 9:
 		rem_time_to_str = str(remaining_time/60) + ":" + str(remaining_time%60) 
@@ -95,7 +95,8 @@ func _process(delta: float) -> void:
 
 	#rotation_degrees += (360 / (temps_gir / fenix.velocitat_pajaro)) * delta
 	rotation_degrees = fenix_completion
-	pivot_checkpoint_detras.rotation_degrees = fenix_completion
+
+	#pivot_checkpoint_detras.rotation_degrees = fenix_completion
 	pivot_checkpoint_delante.rotation_degrees = fenix_completion
 
 	pivot_ruc.rotation_degrees = fenix_completion - ruc_completion

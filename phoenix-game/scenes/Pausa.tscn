@@ -1,7 +1,12 @@
 [gd_scene format=3 uid="uid://cb0d4hdwxxhlp"]
 
+<<<<<<< Updated upstream
 [ext_resource type="Script" uid="uid://r2pct4b1q44y" path="res://scenes/pausa.gd" id="1_0x36i"]
 [ext_resource type="Texture2D" uid="uid://b020ihek68ygr" path="res://images/menu_pausa.png" id="1_ss6cr"]
+=======
+[ext_resource type="Script" uid="uid://r2pct4b1q44y" path="res://scripts/pausa.gd" id="1_0x36i"]
+[ext_resource type="Texture2D" uid="uid://b020ihek68ygr" path="res://images/menu_pausa.png" id="2_ff6no"]
+>>>>>>> Stashed changes
 
 [node name="Pausa" type="Control" unique_id=1351822781]
 process_mode = 3

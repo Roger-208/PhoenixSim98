@@ -1,6 +1,8 @@
 
 extends Label
 
+@onready var sonido: AudioStreamPlayer2D = $AudioStreamPlayer2D
+
 @onready var timer: Timer = $Timer
 @onready var aEscriure = ""
 
@@ -222,6 +224,8 @@ func _on_timeout() -> void:
 		# Boost de la ristra normal
 		if ristra_correcta:
 			fenix.velocitat_pajaro += 3
+			sonido.play()
+			
 
 		# Preparar una nova ristra
 		ristra_correcta = true

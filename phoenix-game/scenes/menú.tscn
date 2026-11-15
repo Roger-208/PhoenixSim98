@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://l5yppk6wq4ki" path="res://images/f6afa9dcb15852c7aece5b67117dd6cc.jpg" id="2_6tq3s"]
 [ext_resource type="Texture2D" uid="uid://bxp0c7fmw8lgj" path="res://images/play.png" id="3_shunq"]
 [ext_resource type="Texture2D" uid="uid://br0se45jqm625" path="res://images/tutorial.png" id="4_gkko3"]
+[ext_resource type="Texture2D" uid="uid://l6h6bjwvh2hm" path="res://images/Phoenix studios logo.png" id="5_po52n"]
 
 [node name="Menú" type="Control" unique_id=269529036]
 layout_mode = 3
@@ -37,6 +38,18 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_6tq3s")
 stretch_mode = 5
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=671017461]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -512.0
+offset_top = -82.0
+offset_right = 512.0
+offset_bottom = 430.0
+grow_horizontal = 2
+texture = ExtResource("5_po52n")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1809823519]
 layout_mode = 1

@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://c4j4kgyoqss1e" path="res://scenes/background.tscn" id="2_0wfyh"]
 [ext_resource type="PackedScene" uid="uid://cx30tk6dsp87y" path="res://scenes/fenix_personatge.tscn" id="3_sugp2"]
 [ext_resource type="PackedScene" uid="uid://bxijyq583dxtx" path="res://scenes/ruc.tscn" id="4_jyhfs"]
+[ext_resource type="PackedScene" uid="uid://cb0d4hdwxxhlp" path="res://scenes/Pausa.tscn" id="5_tbgi4"]
 
 [node name="MenuParaules" type="Node2D" unique_id=113768335]
 
@@ -12,13 +13,8 @@
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=743463322]
 
 [node name="Node2D" parent="CanvasLayer" unique_id=939044018 instance=ExtResource("1_ig7tw")]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = 0.0
-offset_bottom = 0.0
-grow_horizontal = 2
-grow_vertical = 2
+
+[node name="Pausa" parent="CanvasLayer" unique_id=1351822781 instance=ExtResource("5_tbgi4")]
 
 [node name="FenixPersonatge" parent="." unique_id=1579974124 instance=ExtResource("3_sugp2")]
 

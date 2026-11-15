@@ -53,7 +53,10 @@ func _process(delta: float) -> void:
 	time += delta
 	remaining_time = int(360 - time)
 	
-	rem_time_to_str = str(remaining_time/60) + ":" + str(remaining_time%60)
+	if remaining_time%60 > 9:
+		rem_time_to_str = str(remaining_time/60) + ":" + str(remaining_time%60) 
+	else:
+		rem_time_to_str = str(remaining_time/60) + ":0" + str(remaining_time%60) 
 	timer.text = rem_time_to_str
 	
 	if goback:
@@ -64,9 +67,6 @@ func _process(delta: float) -> void:
 			fenix.velocitat_pajaro = 1
 			ruc.velocitat_pajaro = 1.2
 			goback = false
-		
-		
-	
 
 	fenix_pos += delta * fenix.velocitat_pajaro
 	ruc_pos += delta * ruc.velocitat_pajaro
@@ -81,9 +81,9 @@ func _process(delta: float) -> void:
 
 
 	
-	if  Input.is_action_pressed("space"):
+	if  Input.is_action_pressed("¡"):
 		fenix.velocitat_pajaro *= 1.1
-	 	
+
 	#rotation_degrees += (360 / (temps_gir / fenix.velocitat_pajaro)) * delta
 	rotation_degrees = fenix_completion
 	pivot_checkpoint_detras.rotation_degrees = fenix_completion
@@ -94,9 +94,6 @@ func _process(delta: float) -> void:
 	if int(ruc_completion/90) > 0 && (int(ruc_completion/90) > int(fenix_completion)/90):
 		goback = true
 		last_checkpoint = int(fenix_completion/90)
-
-
-		
 
 	if fenix.velocitat_pajaro > 1 && not goback:
 		fenix.velocitat_pajaro *= 0.995

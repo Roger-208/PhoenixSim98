@@ -3,8 +3,10 @@
 [ext_resource type="PackedScene" uid="uid://cfjmjekps8ve1" path="res://paraules.tscn" id="1_ig7tw"]
 [ext_resource type="PackedScene" uid="uid://c4j4kgyoqss1e" path="res://scenes/background.tscn" id="2_0wfyh"]
 [ext_resource type="PackedScene" uid="uid://cx30tk6dsp87y" path="res://scenes/fenix_personatge.tscn" id="3_sugp2"]
+[ext_resource type="Texture2D" uid="uid://dl7rmh6qoghq2" path="res://assets/checkpoint_detras2.svg" id="3_tefeu"]
 [ext_resource type="PackedScene" uid="uid://bxijyq583dxtx" path="res://scenes/ruc.tscn" id="4_jyhfs"]
 [ext_resource type="PackedScene" uid="uid://cb0d4hdwxxhlp" path="res://scenes/Pausa.tscn" id="5_tbgi4"]
+[ext_resource type="Texture2D" uid="uid://bgqjdxyiteiyq" path="res://assets/checkpoint_delante2.svg" id="6_o6xl0"]
 
 [node name="MenuParaules" type="Node2D" unique_id=113768335]
 
@@ -16,6 +18,31 @@
 
 [node name="Pausa" parent="CanvasLayer" unique_id=1351822781 instance=ExtResource("5_tbgi4")]
 
+[node name="pivot_checkpoints_detras" type="Node2D" parent="." unique_id=2672763]
+position = Vector2(576, 4730)
+
+[node name="CheckpointDetras2" type="Sprite2D" parent="pivot_checkpoints_detras" unique_id=99383465]
+position = Vector2(0, -4450)
+scale = Vector2(2, 2)
+texture = ExtResource("3_tefeu")
+
+[node name="CheckpointDetras3" type="Sprite2D" parent="pivot_checkpoints_detras" unique_id=2020342568]
+position = Vector2(0, 4450)
+scale = Vector2(2, 2)
+texture = ExtResource("3_tefeu")
+
+[node name="CheckpointDetras4" type="Sprite2D" parent="pivot_checkpoints_detras" unique_id=1256682967]
+position = Vector2(4450, 0)
+rotation = 1.5707964
+scale = Vector2(2, 2)
+texture = ExtResource("3_tefeu")
+
+[node name="CheckpointDetras5" type="Sprite2D" parent="pivot_checkpoints_detras" unique_id=1217838124]
+position = Vector2(-4450, 0)
+rotation = 1.5707964
+scale = Vector2(2, 2)
+texture = ExtResource("3_tefeu")
+
 [node name="FenixPersonatge" parent="." unique_id=1579974124 instance=ExtResource("3_sugp2")]
 
 [node name="pivot_ruc" type="Node2D" parent="." unique_id=387664781]
@@ -23,3 +50,28 @@ position = Vector2(576, 4730)
 
 [node name="Ruc" parent="pivot_ruc" unique_id=1352965393 instance=ExtResource("4_jyhfs")]
 position = Vector2(-576, -4730)
+
+[node name="pivot_checkpoints_delante" type="Node2D" parent="." unique_id=1442423723]
+position = Vector2(576, 4730)
+
+[node name="CheckpointDelante2" type="Sprite2D" parent="pivot_checkpoints_delante" unique_id=957001854]
+position = Vector2(0, 4450)
+scale = Vector2(2, 2)
+texture = ExtResource("6_o6xl0")
+
+[node name="CheckpointDelante3" type="Sprite2D" parent="pivot_checkpoints_delante" unique_id=111120212]
+position = Vector2(0, -4450)
+scale = Vector2(2, 2)
+texture = ExtResource("6_o6xl0")
+
+[node name="CheckpointDelante4" type="Sprite2D" parent="pivot_checkpoints_delante" unique_id=81332389]
+position = Vector2(-4450, 0)
+rotation = 1.5707964
+scale = Vector2(2, 2)
+texture = ExtResource("6_o6xl0")
+
+[node name="CheckpointDelante5" type="Sprite2D" parent="pivot_checkpoints_delante" unique_id=1050590413]
+position = Vector2(4450, 0)
+rotation = 1.5707964
+scale = Vector2(2, 2)
+texture = ExtResource("6_o6xl0")

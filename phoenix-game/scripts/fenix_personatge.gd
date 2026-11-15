@@ -1,15 +1,13 @@
 extends Node2D
 
 @onready var sprite = $AnimatedSprite2D
-@export var velocitat_pajaro: float = 1.0
-
+@onready var velocitat_pajaro = 1.0
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	var screen_size = get_viewport_rect().size
 	sprite.position = screen_size/2
 	sprite.play("default")
-
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:

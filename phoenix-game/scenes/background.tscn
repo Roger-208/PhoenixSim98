@@ -3,6 +3,8 @@
 [ext_resource type="Script" uid="uid://dut7btnjc6rki" path="res://scripts/earth.gd" id="3_cbsqf"]
 [ext_resource type="Texture2D" uid="uid://rhnwpyrswq3r" path="res://assets/sky3.png" id="3_wisxt"]
 [ext_resource type="Texture2D" uid="uid://c8ghfwgrj31cb" path="res://assets/planeta.svg" id="4_cbsqf"]
+[ext_resource type="PackedScene" uid="uid://sq5c0h7m4d33" path="res://scenes/fenix_icona.tscn" id="4_wisxt"]
+[ext_resource type="PackedScene" uid="uid://cc0cg2x1e65so" path="res://scenes/ruc_icona.tscn" id="5_wax1t"]
 [ext_resource type="Script" uid="uid://2fjxkn8km5h8" path="res://scripts/line_2d.gd" id="5_wisxt"]
 
 [node name="Background" type="Node2D" unique_id=1448918115]
@@ -19,9 +21,30 @@ script = ExtResource("5_wisxt")
 radi = 4550.0
 punts = 240
 
-[node name="Node2D2" type="Node2D" parent="." unique_id=1347149674]
-position = Vector2(1039, 98)
+[node name="pivot_phoenix" type="Node2D" parent="." unique_id=1347149674]
+position = Vector2(1020, 114)
+
+[node name="FenixIcona" parent="pivot_phoenix" unique_id=1579974124 instance=ExtResource("4_wisxt")]
+position = Vector2(0, -51)
+scale = Vector2(0.3, 0.3)
+
+[node name="pivot_ruc" type="Node2D" parent="." unique_id=1924468022]
+position = Vector2(1020, 114)
+
+[node name="ruc_icona" parent="pivot_ruc" unique_id=1352965393 instance=ExtResource("5_wax1t")]
+position = Vector2(0, -74)
+scale = Vector2(0.3, 0.3)
 
 [node name="Planeta" type="Sprite2D" parent="." unique_id=26593994]
-position = Vector2(1006, 77)
+position = Vector2(1020, 113.99999)
+scale = Vector2(2.2714286, 2.2714286)
 texture = ExtResource("4_cbsqf")
+
+[node name="Label" type="Label" parent="Planeta" unique_id=1353987727]
+offset_left = -9.685535
+offset_top = -7.0440226
+offset_right = 4.402508
+offset_bottom = 7.4842825
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 9

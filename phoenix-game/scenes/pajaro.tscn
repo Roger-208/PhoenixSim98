@@ -1,0 +1,155 @@
+[gd_scene format=3 uid="uid://dt2wcx01bkbl0"]
+
+[ext_resource type="Script" uid="uid://dut7btnjc6rki" path="res://scripts/earth.gd" id="1_esev6"]
+[ext_resource type="Texture2D" uid="uid://rhnwpyrswq3r" path="res://assets/sky3.png" id="3_4xhxa"]
+[ext_resource type="Script" uid="uid://2fjxkn8km5h8" path="res://scripts/line_2d.gd" id="4_wsn06"]
+
+[node name="Node2D" type="Node2D" unique_id=947609906]
+script = ExtResource("1_esev6")
+
+[node name="Node2D2" type="Node2D" parent="." unique_id=1694043470]
+visible = false
+position = Vector2(-576, -4730)
+
+[node name="SinTítulo2" type="Sprite2D" parent="Node2D2" unique_id=1763275993]
+position = Vector2(562, 471)
+rotation = 0.019705841
+scale = Vector2(3.2866669, 3.2866669)
+
+[node name="SinTítulo3" type="Sprite2D" parent="Node2D2" unique_id=215259497]
+position = Vector2(-726.0001, 685)
+rotation = -0.36098358
+scale = Vector2(3.2866666, 3.2866666)
+
+[node name="SinTítulo4" type="Sprite2D" parent="Node2D2" unique_id=1800148111]
+position = Vector2(-1887.0002, 1297)
+rotation = -0.61102146
+scale = Vector2(3.2866666, 3.2866666)
+
+[node name="SinTítulo5" type="Sprite2D" parent="Node2D2" unique_id=577166877]
+position = Vector2(-2834, 2215)
+rotation = -0.9220166
+scale = Vector2(3.2866669, 3.2866669)
+
+[node name="SinTítulo6" type="Sprite2D" parent="Node2D2" unique_id=1948548737]
+position = Vector2(-3441, 3367)
+rotation = -1.237177
+scale = Vector2(3.2866664, 3.2866664)
+
+[node name="SinTítulo7" type="Sprite2D" parent="Node2D2" unique_id=1672269980]
+position = Vector2(-3661.9995, 4643)
+rotation = -1.5485687
+scale = Vector2(3.2866666, 3.2866666)
+
+[node name="Node2D3" type="Node2D" parent="." unique_id=1345796981]
+visible = false
+position = Vector2(-4400, 1808)
+rotation = -1.8388593
+
+[node name="SinTítulo2" type="Sprite2D" parent="Node2D3" unique_id=1279205463]
+position = Vector2(562, 471)
+rotation = 0.019705841
+scale = Vector2(3.2866669, 3.2866669)
+
+[node name="SinTítulo3" type="Sprite2D" parent="Node2D3" unique_id=337389228]
+position = Vector2(-726.0001, 685)
+rotation = -0.36098358
+scale = Vector2(3.2866666, 3.2866666)
+
+[node name="SinTítulo4" type="Sprite2D" parent="Node2D3" unique_id=860468983]
+position = Vector2(-1887.0002, 1297)
+rotation = -0.61102146
+scale = Vector2(3.2866666, 3.2866666)
+
+[node name="SinTítulo5" type="Sprite2D" parent="Node2D3" unique_id=882088979]
+position = Vector2(-2834, 2215)
+rotation = -0.9220166
+scale = Vector2(3.2866669, 3.2866669)
+
+[node name="SinTítulo6" type="Sprite2D" parent="Node2D3" unique_id=1358392426]
+position = Vector2(-3441, 3367)
+rotation = -1.237177
+scale = Vector2(3.2866664, 3.2866664)
+
+[node name="SinTítulo7" type="Sprite2D" parent="Node2D3" unique_id=1431342352]
+position = Vector2(-3661.9995, 4643)
+rotation = -1.5485687
+scale = Vector2(3.2866666, 3.2866666)
+
+[node name="Node2D4" type="Node2D" parent="." unique_id=1557260754]
+visible = false
+position = Vector2(2883, 3770)
+rotation = -3.6814003
+
+[node name="SinTítulo2" type="Sprite2D" parent="Node2D4" unique_id=135098003]
+position = Vector2(562, 471)
+rotation = 0.019705841
+scale = Vector2(3.2866669, 3.2866669)
+
+[node name="SinTítulo3" type="Sprite2D" parent="Node2D4" unique_id=178204431]
+position = Vector2(-726.0001, 685)
+rotation = -0.36098358
+scale = Vector2(3.2866666, 3.2866666)
+
+[node name="SinTítulo4" type="Sprite2D" parent="Node2D4" unique_id=1887990575]
+position = Vector2(-1887.0002, 1297)
+rotation = -0.61102146
+scale = Vector2(3.2866666, 3.2866666)
+
+[node name="SinTítulo5" type="Sprite2D" parent="Node2D4" unique_id=1365548636]
+position = Vector2(-2834, 2215)
+rotation = -0.9220166
+scale = Vector2(3.2866669, 3.2866669)
+
+[node name="SinTítulo6" type="Sprite2D" parent="Node2D4" unique_id=184523345]
+position = Vector2(-3441, 3367)
+rotation = -1.237177
+scale = Vector2(3.2866664, 3.2866664)
+
+[node name="SinTítulo7" type="Sprite2D" parent="Node2D4" unique_id=380101584]
+position = Vector2(-3661.9995, 4643)
+rotation = -1.5485687
+scale = Vector2(3.2866666, 3.2866666)
+
+[node name="Node2D5" type="Node2D" parent="." unique_id=1990001849]
+visible = false
+position = Vector2(4253.0005, -1987)
+rotation = -5.0256934
+
+[node name="SinTítulo2" type="Sprite2D" parent="Node2D5" unique_id=1406609883]
+position = Vector2(562, 471)
+rotation = 0.019705841
+scale = Vector2(3.2866669, 3.2866669)
+
+[node name="SinTítulo3" type="Sprite2D" parent="Node2D5" unique_id=2049948140]
+position = Vector2(-726.0001, 685)
+rotation = -0.36098358
+scale = Vector2(3.2866666, 3.2866666)
+
+[node name="SinTítulo4" type="Sprite2D" parent="Node2D5" unique_id=858513253]
+position = Vector2(-1887.0002, 1297)
+rotation = -0.61102146
+scale = Vector2(3.2866666, 3.2866666)
+
+[node name="SinTítulo5" type="Sprite2D" parent="Node2D5" unique_id=825078691]
+position = Vector2(-2834, 2215)
+rotation = -0.9220166
+scale = Vector2(3.2866669, 3.2866669)
+
+[node name="SinTítulo6" type="Sprite2D" parent="Node2D5" unique_id=732063795]
+position = Vector2(-3441, 3367)
+rotation = -1.237177
+scale = Vector2(3.2866664, 3.2866664)
+
+[node name="SinTítulo7" type="Sprite2D" parent="Node2D5" unique_id=127247343]
+position = Vector2(-3661.9995, 4643)
+rotation = -1.5485687
+scale = Vector2(3.2866666, 3.2866666)
+
+[node name="Line2D" type="Line2D" parent="." unique_id=403338010]
+width = 1000.0
+texture = ExtResource("3_4xhxa")
+texture_mode = 1
+script = ExtResource("4_wsn06")
+radi = 4550.0
+punts = 240

@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://bxijyq583dxtx"]
+
+[ext_resource type="Script" path="res://scenes/ruc.gd" id="1_8cd7f"]
+[ext_resource type="Texture2D" path="res://assets/roc/roc1.png" id="1_ayd61"]
+[ext_resource type="Texture2D" path="res://assets/roc/roc2.png" id="2_8cd7f"]
+[ext_resource type="Texture2D" path="res://assets/roc/roc3.png" id="3_n3580"]
+[ext_resource type="Texture2D" path="res://assets/roc/roc4.png" id="4_nqsk1"]
+[ext_resource type="Texture2D" path="res://assets/roc/roc5.png" id="5_2a81d"]
+[ext_resource type="Texture2D" path="res://assets/roc/roc6.png" id="6_rcnhn"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rch1p"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ayd61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_8cd7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_n3580")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nqsk1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_2a81d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_rcnhn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_2a81d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nqsk1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_n3580")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_8cd7f")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Ruc" type="Node2D" unique_id=1352965393]
+script = ExtResource("1_8cd7f")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=71221263]
+sprite_frames = SubResource("SpriteFrames_rch1p")
+frame_progress = 0.5124189
